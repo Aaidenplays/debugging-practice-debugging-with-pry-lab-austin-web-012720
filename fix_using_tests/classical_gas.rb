@@ -19,7 +19,7 @@ seashore_shell = GasStation.new("The Seashore Shell", 40)
 dinobones = GasStation.new("Dino Bones Gas and Grill", 60)
 
 def change_gas_price(station)
-  station.unleaded_price = 100
+  GasStation.station.unleaded_price = 100
 end
 
 change_gas_price(dinobones)
