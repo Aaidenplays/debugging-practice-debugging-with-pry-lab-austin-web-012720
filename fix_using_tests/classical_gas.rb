@@ -6,14 +6,7 @@ class GasStation
   # https://www.rubyguides.com/2018/11/attr_accessor/
   # https://stackoverflow.com/questions/20018784/attr-accessor-vs-attr-reader-instance-variables/20018831
   attr_accessor :brand, :unleaded_price 
-  
-  def brand
-    @brand    
-  end
-  
-  def brand=(name_of_brand)
-    @brand = name_of_brand    
-  end
+
   
   def initialize(brand, unleaded_price)
     @brand = brand
