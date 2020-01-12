@@ -1,3 +1,6 @@
+
+require 'pry'
+
 def generate_star_date
   (rand(100000) + 400000) / 10.0
 end
@@ -12,11 +15,14 @@ def crew
 end
 
 def greet_crew (crew)
-  crew.each {|crew_member| "Hello #{crew_member}."}
+  result = []
+  crew.each {|crew_member|result << "Hello #{crew_member}."}
+  result
 end
 
 def engage
   date = generate_star_date
   state_log(date)
   greet_crew(crew)
+#binding.pry
 end
