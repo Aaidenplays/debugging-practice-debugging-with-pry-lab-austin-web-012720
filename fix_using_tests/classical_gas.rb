@@ -24,5 +24,5 @@ dinobones = GasStation.new("Dino Bones Gas and Grill", 60)
 #change_gas_price(dinobones,100)
 
 
-binding.pry
+#binding.pry
 
