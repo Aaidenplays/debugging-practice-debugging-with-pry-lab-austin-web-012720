@@ -7,6 +7,12 @@ class GasStation
   # https://stackoverflow.com/questions/20018784/attr-accessor-vs-attr-reader-instance-variables/20018831
   attr_accessor :brand, :unleaded_price 
   
+  attr_reader :brand
+  
+  def brand
+    @brand    
+  end
+  
   def initialize(brand, unleaded_price)
     @brand = brand
     @unleaded_price = unleaded_price
