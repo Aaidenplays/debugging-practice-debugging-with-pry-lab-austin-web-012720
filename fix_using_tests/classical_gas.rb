@@ -18,11 +18,11 @@ petrol_petes = GasStation.new("Petrol Pete's", 50)
 seashore_shell = GasStation.new("The Seashore Shell", 40)
 dinobones = GasStation.new("Dino Bones Gas and Grill", 60)
 
-def change_gas_price(station)
-  GasStation.station.unleaded_price = 100
+def change_gas_price(station,price)
+  GasStation.station.unleaded_price = price
 end
 
-change_gas_price(dinobones)
+change_gas_price(dinobones,100)
 
 
 binding.pry
