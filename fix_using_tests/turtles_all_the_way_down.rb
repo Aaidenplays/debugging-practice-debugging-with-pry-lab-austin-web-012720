@@ -9,9 +9,10 @@ def turtles
 end
 
 def turtle_traits(turtles)
+  turle_trait = []
   turtles.map do |turtle|
     turtle[:traits].each do |trait|
-      trait
+      turle_trait << trait
       binding.pry
     end
   end
