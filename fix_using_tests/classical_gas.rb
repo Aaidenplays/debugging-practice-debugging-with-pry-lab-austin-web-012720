@@ -22,7 +22,7 @@ def change_gas_price(station,price)
   GasStation.dinobones.@unleaded_price = price
 end
 
-change_gas_price(dinobones,100)
+#change_gas_price(dinobones,100)
 
 
 binding.pry
